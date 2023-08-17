@@ -1,0 +1,401 @@
+/*Manipulated and edited by SIDDHANT*/
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+::selection{
+    background-color: black;
+    color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+/* Set the background image and apply background blend mode */
+body {
+    background-image: url('n1.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-blend-mode: darken; 
+}
+/*Main Front PHOTO -CSS*/
+.front{
+    border:1px solid transparent;
+    border-radius: 100%;
+    width:260px ;
+    height: 260px;
+}
+/*Main Button-css*/
+.clicker{
+    background-color: rgb(20, 0, 0);
+    color: white;
+    border:1px solid transparent;
+    border-radius:6px;
+    padding: 10px;
+    font-size: 14px;
+}
+.clicker:hover{
+    background-color: rgba(20, 0, 0, 0.579);
+    color: rgb(201, 201, 201);
+    transition: 0.2s ease-in-out;
+}
+.mainer1{
+    font-size: 26px;
+    font-family: arial;
+    font-weight: lighter;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+.mainer2{
+    font-size: 19px;
+    padding-bottom: 10px;
+    color:white;
+}
+.handler{
+    display: flex;
+}
+
+
+
+/* Add additional styling for your content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+/* Header styles */
+header {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 10px 0;
+    transition: background-color 0.3s ease;
+}
+.navbar.scrolled {
+    background-color: rgba(38, 38, 38, 0.832); 
+    padding: 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);   
+}
+
+
+
+
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    padding-right: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+}
+nav a:hover{
+    color: rgb(245, 183, 183);
+    transition: 0.3s ease;
+}
+h1{
+    font-size: 30px;
+    padding-bottom: 8px;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 100; 
+}
+/* map-div */
+#map{
+    background-color: rgba(255, 255, 255, 0.882);
+    padding: 80px 0;
+}
+.mapper{
+    width: 700px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+.mentioner{
+    text-align: center;
+    padding: 6px;
+    font-size: 15px;
+
+}
+#locator{
+    padding-top: 37px;
+}
+.responsive-div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-container {
+    flex: 1;
+    max-width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  #image-container-checker{
+    max-width: 100%;
+  }
+  .mapper:hover{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 16px;
+    transition: 0.2s ease;
+  }
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  .earth{
+    height: 100px;
+    width: 100px;
+  }
+  .nabber{
+    display: flex;
+  }
+
+/* Container styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Home section styles */
+#home {
+    background-color:rgba(0, 0, 0, 0.267);
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* About section styles */
+#about {
+    background-color: rgba(255, 255, 255, 0.882);
+    padding: 80px 0;
+}
+
+/* Portfolio section styles */
+#portfolio {
+    background-color: rgba(0, 0, 0, 0.267);
+    padding: 80px 0;
+    color: white;
+}
+
+.portfolio-item {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+/* Contact section styles */
+#contact {
+    background-color:rgba(255, 255, 255, 0.882);
+    padding: 80px 0;
+    text-align: center;
+}
+
+/* Footer styles */
+footer {
+    background-color: rgba(0, 0, 0, 0.267);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/*Clock-css-code*/
+.clock-container {
+    position: relative;
+}
+
+.clock {
+    width: 50px;
+    height: 50px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-138%);
+}
+
+.hour-hand, .minute-hand, .second-hand {
+    position: absolute;
+    transform-origin: center;
+}
+
+.hour-hand {
+    width: 2px;
+    height: 20px;
+    background-color: #fff;
+    top: 15px;
+    left: 24px;
+}
+
+.minute-hand {
+    width: 2px;
+    height: 30px;
+    background-color: #fff;
+    top: 10px;
+    left: 24px;
+}
+
+.second-hand {
+    width: 1px;
+    height: 35px;
+    background-color: #f00;
+    top: 7.5px;
+    left: 24.5px;
+}
+
+.center {
+    width: 6px;
+    height: 6px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 22px;
+    left: 22px;
+}
+
+/*Responsive-Css-Codes*/
+@media screen and (max-width: 708px) {
+   .front{
+    width:190px ;
+    height: 190px;
+   }
+   .mainer1{
+    font-size: 22px;
+   }
+   .mainer2{
+    font-size: 14px;
+   }
+   .clicker{
+    font-size: 13px;
+   }
+   .clock{
+    display: none;
+   }
+}
+@media screen and (max-width:482px){
+    .front{
+        width:145px ;
+        height: 145px;
+       }
+       .mainer1{
+        font-size: 20px;
+       }
+       .mainer2{
+        font-size: 12px;
+       }
+       .clicker{
+        font-size: 11px;
+       }
+}
+
+/*Hamburger-css-code*/
+
+.menu-icon {
+    display: none; /* Hide the hamburger icon by default */
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 3px 0;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+
+
+.nav-list a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.nav-list a:hover {
+    color: #ff9900;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .menu-icon {
+        display: block; 
+    }
+    h1{
+       padding-left: 10px;
+    }
+    
+    .nav-list {
+        display: none; 
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .nav-list.active {
+        display: flex; 
+    }
+    .earth{
+        width: 60px;
+        height: 60px;
+    }
+    #locator{
+        padding-top: 29px;
+    }
+}
+@media screen and (max-width:486px){
+    h1{
+        font-size:20px;
+    }
+}
+@media screen and (max-width:550px){
+    .tx{
+        font-size: 11px;
+    }
+    h2{
+        font-size: 19px;
+    }
+    h3{
+        font-size: 19px;
+    }
+    .mentioner{
+        font-size: 10px;
+    }
+}
+
+
